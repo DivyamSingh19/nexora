@@ -12,9 +12,15 @@
   "type": "commonjs",
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "@types/fs-extra": "^11.0.4",
     "hardhat": "^2.22.19"
   },
   "dependencies": {
-    "@openzeppelin/contracts": "^5.2.0"
+    "@nomiclabs/hardhat-etherscan": "^3.1.8",
+    "@nomiclabs/hardhat-waffle": "^2.0.6",
+    "@openzeppelin/contracts": "^5.2.0",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.5",
+    "fs-extra": "^11.3.0"
   }
 }

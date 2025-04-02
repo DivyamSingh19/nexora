@@ -35,7 +35,7 @@ export default function Create() {
   const marketplaceAddress = process.env.NEXT_PUBLIC_MARKETPLACE_ADDRESS;
   const nftAddress = process.env.NEXT_PUBLIC_NFT_ADDRESS;
 
-  // Function to connect to the blockchain and get contract instances
+  
   const getContracts = async () => {
     try {
       // Check if window.ethereum exists (MetaMask is installed)

@@ -1,8 +1,10 @@
-import {Landing} from "@/components/landing/Landing"
+import {Landing} from "@/components/landing/Landing";
+ import  Navbar  from "@/components/navbar/Navbar";
 export default function Home() {
   return (
     <div>
-      <Landing/>
+     <Navbar/>
+    <Landing/>
     </div>
   );
 }
