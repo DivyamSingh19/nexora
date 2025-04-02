@@ -43,6 +43,19 @@
   --radius-xl: calc(var(--radius) + 4px);
   --color-brand-foreground: var(----brand-foreground);
   --color-brand: var(----brand);
+  --animate-aurora: aurora 60s linear infinite;
+  @keyframes aurora {
+    from {
+      background-position:
+        50% 50%,
+        50% 50%;
+    }
+    to {
+      background-position:
+        350% 50%,
+        350% 50%;
+    }
+  }
 }
 
 :root {

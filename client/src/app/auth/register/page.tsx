@@ -1,11 +1,13 @@
+ import Register from '@/components/registerform/RegisterForm'
 import React from 'react'
-
-const page = () => {
-  return (
-    <div>
-      
-    </div>
-  )
-}
-
-export default page
+ 
+ const page = () => {
+   return (
+     <div>
+       <Register/>
+     </div>
+   )
+ }
+ 
+ export default page
+ 
