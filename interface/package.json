@@ -22,6 +22,9 @@
     "packages/*"
   ],
   "dependencies": {
+    "next": "^15.4.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
     "@neondatabase/serverless": "^1.0.1",
     "drizzle": "^1.4.0",
     "drizzle-orm": "^0.44.4"
